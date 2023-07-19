@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;700&family=Roboto:wght@400;700&display=swap");
+:root {
+  --color-blue-light: #00d4ff;
+  --color-blue-medium: #635bff;
+  --color-blue-dark: #0a2540;
+  --color-white: #fff;
+  --color-gray-light: #d9d9d9;
+  --color-gray-medium: #c1c5c9;
+  --color-gray-dark: #425466;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Barlow", Tahoma, sans-serif;
+}
+
+body {
+  background-color: var(--color-gray-medium);
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: unset;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.max-width-768 {
+  max-width: 768px;
+}
+
+.card {
+  box-shadow: 0px 1px 4px rgba(65, 65, 65, 0.25);
+  background: var(--color-white);
+  border-radius: 8px;
+}

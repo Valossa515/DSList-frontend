@@ -1,0 +1,11 @@
+/* styles.css */
+.games-title {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .games-title p {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }

@@ -1,0 +1,44 @@
+.menu-container {
+  background-color: #333;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.menu-content {
+  position: relative;
+}
+
+.menu-toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px; /* Defina um tamanho adequado para o ícone de hamburger */
+}
+
+.menu-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  padding: 10px;
+  list-style: none;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-list li {
+  margin-bottom: 5px;
+}
+
+.menu-list a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.menu-list a:hover {
+  background-color: #555;
+}

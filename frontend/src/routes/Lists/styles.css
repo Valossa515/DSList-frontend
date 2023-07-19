@@ -1,0 +1,38 @@
+/* styles/Lists.css */
+.list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .lists-section {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .lists-listing-container {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .lists-item {
+    margin-bottom: 8px;
+  }
+  
+  .lists-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .lists-link:hover {
+    background-color: #f0f0f0;
+  }
+  

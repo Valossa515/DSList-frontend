@@ -1,0 +1,40 @@
+/* GameCard.css */
+.game-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.game-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.game-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 4px;
+  object-fit: cover;
+  margin-right: 12px;
+}
+
+.game-info {
+  flex: 1;
+}
+
+.game-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.game-details {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 2px;
+}

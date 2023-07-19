@@ -1,0 +1,22 @@
+/* styles/Home.css */
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .home-content {
+    text-align: center;
+  }
+  
+  .home-title {
+    font-size: 2.5rem;
+    margin-bottom: 16px;
+  }
+  
+  .home-subtitle {
+    font-size: 1.5rem;
+    color: #666;
+  }
+  

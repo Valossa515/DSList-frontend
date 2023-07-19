@@ -1,0 +1,36 @@
+/* src/components/GameCardList.css */
+.game-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px;
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .game-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .game-card h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .game-card p {
+    margin: 8px 0;
+    font-size: 14px;
+  }
+  
+  .game-card p:first-child {
+    font-weight: bold;
+  }
+  
+  .game-card p:last-child {
+    margin-top: auto;
+  }
+  
