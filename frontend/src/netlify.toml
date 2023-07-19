@@ -1,0 +1,3 @@
+[build]
+  publish = "build"  # Caminho para a pasta de construção
+  command = "yarn build"  # Comando para construir o projeto
