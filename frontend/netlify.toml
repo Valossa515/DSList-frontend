@@ -1,3 +1,17 @@
 [build]
-  publish = "dist"  # Caminho para a pasta de construção
-  command = "yarn build"  # Comando para construir o projeto
+  command = "yarn build"
+  publish = "dist" # Certifique-se de que o diretório de build seja "dist"
+
+[[plugins]]
+  package = "netlify-plugin-inline-functions"
+
+[[plugins]]
+  package = "netlify-plugin-sitemap"
+
+[[plugins]]
+  package = "netlify-plugin-robots"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

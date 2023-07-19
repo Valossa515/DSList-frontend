@@ -1,3 +1,0 @@
-[build]
-  publish = "yarn build:copy"  # Caminho para a pasta de construção
-  command = "public"  # Comando para construir o projeto

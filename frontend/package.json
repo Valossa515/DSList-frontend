@@ -5,10 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite --open",
-    "build": "tsc && vite build",
-    "build:copy": "cp -r build/* public",
+    "build": "vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "netlify:build": "yarn build", 
+    "netlify:build:copy": "cp -r build/* public"
   },
   
   "dependencies": {
