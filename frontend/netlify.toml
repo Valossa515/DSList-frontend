@@ -1,6 +1,7 @@
 [build]
   command = "yarn build"
-  publish = "dist" # Certifique-se de que o diretório de build seja "dist"
+  publish = "frontend/dist" # Certifique-se de que o diretório de build seja "dist"
+  base = "/"
 
 [[plugins]]
   package = "netlify-plugin-inline-functions"
